@@ -5,9 +5,8 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 body {
   margin: 0;
@@ -1371,9 +1370,17 @@ a.text-danger:hover,
 a.text-danger:focus {
   color: #843534;
 }
-.bg-primary {
+.bg-primary-blue {
   color: #fff;
   background-color: #337ab7;
+}
+.bg-primary-green {
+  color: #fff;
+  background-color: green;
+}
+.bg-primary-purple {
+  color: #fff;
+  background-color: #a47eb2;
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
@@ -1586,6 +1593,9 @@ pre code {
   padding-left: 15px; */
   margin-right: auto;
   margin-left: auto;
+}
+.container-text {
+  min-height: 600px;
 }
 /* @media (min-width: 768px) {
   .container {
@@ -4956,7 +4966,7 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 90px;
+  /* padding-top: 190px; */
   min-height: 600px;
   margin-bottom: 0;
   background-image: url('../images/dinnertable.jpg');
@@ -5006,6 +5016,7 @@ section {
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 63px;
+    color: white;
   }
 }
 .thumbnail {
