@@ -1582,12 +1582,12 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .container {
     width: 750px;
   }
@@ -1601,7 +1601,7 @@ pre code {
   .container {
     width: 1170px;
   }
-}
+} */
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
@@ -4956,11 +4956,17 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee;
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url('../images/dinnertable.jpg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4974,11 +4980,15 @@ a.badge:focus {
 .jumbotron > hr {
   border-top-color: #d5d5d5;
 }
+section {
+  /* padding: 8rem 0; */
+  background-color: pink;
+}
 .container .jumbotron,
 .container-fluid .jumbotron {
   padding-right: 15px;
   padding-left: 15px;
-  border-radius: 6px;
+  /* border-radius: 6px; */
 }
 .jumbotron .container {
   max-width: 100%;
