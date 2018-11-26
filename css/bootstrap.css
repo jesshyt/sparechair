@@ -1372,17 +1372,17 @@ a.text-danger:hover,
 a.text-danger:focus {
   color: #843534;
 }
-.bg-primary-blue {
+.bg-primary-coral {
   color: #fff;
-  background-color: #337ab7;
+  background-color: #FFD6C8;
+}
+.bg-primary-cream {
+  color: #fff;
+  background-color: #FFFEF2;
 }
 .bg-primary-green {
   color: #fff;
-  background-color: green;
-}
-.bg-primary-purple {
-  color: #fff;
-  background-color: #a47eb2;
+  background-color: #D5FFC8;
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
