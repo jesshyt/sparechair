@@ -61,6 +61,7 @@ dfn {
 h1 {
   margin: .67em 0;
   font-size: 2em;
+
 }
 mark {
   color: #000;
@@ -1081,7 +1082,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -4238,16 +4239,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 @media (min-width: 768px) {
   .container > .navbar-header,
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
   .container-fluid > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 }
 .navbar-static-top {
@@ -4969,7 +4970,7 @@ a.badge:focus {
   /* padding-top: 190px; */
   min-height: 600px;
   margin-bottom: 0;
-  background-image: url('../images/dinnertable.jpg');
+  background-image: url('../images/emptytable.jpg');
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -5021,8 +5022,8 @@ section {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
-    color: white;
+    font-size: 120px;
+    color: #A9A8A8;
   }
 }
 .thumbnail {
@@ -6017,7 +6018,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: normal;
