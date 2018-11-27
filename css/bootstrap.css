@@ -1599,6 +1599,7 @@ pre code {
 }
 .container-text {
   min-height: 600px;
+  padding-top: 50px;
 }
 /* @media (min-width: 768px) {
 .container {
@@ -4969,7 +4970,7 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  /* padding-top: 190px; */
+  padding-top: 50px;
   min-height: 600px;
   margin-bottom: 0;
   background-image: url('../images/emptytable.jpg');
@@ -4983,7 +4984,7 @@ a.badge:focus {
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: grey;
 }
 .jumbotron p {
   margin-bottom: 15px;
