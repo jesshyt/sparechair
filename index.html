@@ -25,10 +25,9 @@
 
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a class="nav-link" href="#about">Our Mission</a></li>
-          <li><a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a></li>
-          <li><a class="nav-link js-scroll-trigger" href="#set">Set</a></li>
-          <li><a class="nav-link js-scroll-trigger" href="#sit">Sit</a></li>
+          <li><a class="nav-link" data-target=".navbar-collapse.in" data-toggle="collapse" href="#about">Our Mission</a></li>
+          <li><a class="nav-link js-scroll-trigger" data-target=".navbar-collapse.in" data-toggle="collapse" href="#testimonials">Testimonials</a></li>
+          <li><a class="nav-link js-scroll-trigger" data-target=".navbar-collapse.in" data-toggle="collapse" href="#getinvolved">Get Involved</a></li>
         </ul>
       </div>
 
@@ -36,13 +35,13 @@
   </div>
 
   <!-- <div class="container"> -->
-    <div class="jumbotron">
-      <div class="col-sm-12 ">
-        <div class="row text-center caption">
-          <h1>Spare Chair</h1>
-        </div>
+  <div class="jumbotron">
+    <div class="col-sm-12 ">
+      <div class="row text-center caption">
+        <h1>Spare Chair</h1>
       </div>
     </div>
+  </div>
   <!-- </div> -->
 
   <section class="bg-primary-turqoise text-left" id="about">
@@ -54,6 +53,15 @@
           <p>Being alone is different to being lonely. Feeling lonely can have a negative impact on your mental health. Reducing this number is our responsibility.</p>
           <p>Spare Chair is a non-profit organisation which believes that for every person who feels lonely there is a person who would welcome them at their dinner table. We believe in the power of connection and compassion.</p>
           <p>Spair Chair was founded in 2018 by three young professionals, Jess, Georgia and Grace, who shared the same vision for a more connected world. Their mission statement is simple. To combat loneliness through meaningful connection around the dinner table.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class='col-sm-4'>
+        </div>
+        <div class='col-sm-4'>
+          <img class="img-responsive" src='images/hello.jpeg'>
+        </div>
+        <div class='col-sm-4'>
         </div>
       </div>
     </div>
@@ -101,33 +109,39 @@
   </div>
 </section>
 
-<section class="bg-primary-turqoise text-center" id="set">
+<section class="bg-primary-turqoise text-center" id="getinvolved">
   <div class="container container-text">
-    <h2>Set the Table</h2>
+    <h2>Get Involved</h2>
+    <!-- <p>&nbsp</p> -->
     <div class="row">
-      <div class='col-sm-12'>
-        <p> Why not offer your spare chair to someone alone this Christmas?</p>
-        <a href="set.html" class="btn btn-default">Find Out More</a>
+      <div class='col-sm-4'>
+        <h3>Chair to Share?</h3>
+        <p>“The best way to find yourself is lose yourself in the service of others.” Mahatma Gandhi</p>
+        <p>People who live a life of service live a life of greatness.</p>
+        <p> Offering a space at your dinner table is an example of an act of kindness which will boost your energy levels for the rest of the week and who knows? One conversation with someone new could transform your life. We are just asking you to give someone a chance for one dinner! </p>
+        <p>Sign up to meet new people, and possibly new friends, for dinner!</p>
+        <a href="signup.html" class="btn btn-default">Sign Up</a>
       </div>
+      <div class='col-sm-4'>
+        <img class="img-responsive" src='images/teatable.jpeg'>
+      </div>
+      <div class='col-sm-4'>
+        <h3>Do you want a chair?</h3>
+        <p> Individuals who describe themselves as lonely usually do so for two reasons:</p>
+        <ol>
+          <li>They do not see or talk to anyone very often</li>
+          <li>They are surrounded by people but do not feel understood or cared for</li>
+        </ol>
+        <p>Just as hunger is an indication that your body needs food, loneliness is an indication that you need more meaningful social interaction.</p>
+        <p>The simplest way to cure feelings of loneliness is to meet more, or different, people.</p>
+        <p>Sign up to meet new people, and possibly new friends, for dinner!</p>
+
+        <a href="signup.html" class="btn btn-default">Sign Up</a>
+      </div>
+
     </div>
   </div>
 </section>
-
-
-<div  class="bg-primary-cream text-center" id="sit">
-  <div class="container container-text">
-    <h2>Sit at the Table</h2>
-    <div class="row">
-      <div class='col-sm-12'>
-        <p>Are you alone this Christmas?</p>
-        <p>Do you know someone who is alone this Christmas?</p>
-        <p>Let us help you find a Spare Chair at the dinner table</p>
-        <a href="sit.html" class="btn btn-default">Find Out More</a>
-      </div>
-    </div>
-  </div>
-</div>
-
 
 <div id='social-buttons' class='text-center'>
   <button class="btn btn-lg btn-twitter">Twitter</button>
@@ -139,8 +153,5 @@
 <script tpye="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
-
-
 </body>
-
 </html>
