@@ -1084,7 +1084,7 @@ html {
 }
 body {
   font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -1380,7 +1380,7 @@ a.text-danger:focus {
 }
 .bg-primary-cream {
   color: #fff;
-  background-color: #FFFEF2;
+  background-color: white;
 }
 .bg-primary-green {
   color: #fff;
@@ -1599,7 +1599,7 @@ pre code {
   margin-left: auto;
 }
 .container-text {
-  min-height: 600px;
+  /* min-height: 600px; */
   padding-top: 50px;
 }
 /* @media (min-width: 768px) {
