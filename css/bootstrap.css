@@ -1271,10 +1271,12 @@ h1,
 h2,
 .h2 {
   font-size: 30px;
+  font-family: "Pacifico", Helvetica, Arial, sans-serif !important;
 }
 h3,
 .h3 {
   font-size: 24px;
+  font-family: "Pacifico", Helvetica, Arial, sans-serif !important;
 }
 h4,
 .h4 {
@@ -3077,6 +3079,7 @@ fieldset[disabled] a.btn {
   color: #333;
   background-color: #fff;
   border-color: #ccc;
+  font-family: "Pacifico", Helvetica, Arial, sans-serif !important;
 }
 .btn-default:focus,
 .btn-default.focus {
