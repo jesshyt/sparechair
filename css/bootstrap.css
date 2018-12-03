@@ -61,7 +61,7 @@ dfn {
 h1 {
   margin: .67em 0;
   font-size: 2em;
-
+  font-family: "Pacifico", Helvetica, Arial, sans-serif !important;
 }
 mark {
   color: #000;
@@ -4515,6 +4515,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand {
   color: #777;
+  font-family: "Pacifico", Helvetica, Arial, sans-serif;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -4526,6 +4527,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a {
   color: #777;
+  font-family: "Pacifico", Helvetica, Arial, sans-serif;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
